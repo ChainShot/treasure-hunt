@@ -113,7 +113,7 @@ Here is example JS code using `ethers.js` that calculates the array's data stora
 ```javascript
 const index0StorageSlot = ethers.utils.keccak256(ethers.utils.hexZeroPad('0x1', 32));
 const index1StorageSlot =
-    ethers.BigNumber.from(dataArrayIndex0StorageSlot).add(1).toHexString();
+    ethers.BigNumber.from(index0StorageSlot).add(1).toHexString();
 ```
 
 #### Mappings
@@ -201,5 +201,4 @@ TREASURE_HUNT_CONTRACT_ADDR=<TREASURE_HUNT_CONTRACT_ADDR_ON_RINKEBY>
 Each clue you uncover will lead you to the location of the next clue. Using each clue, you'll need to calculate the storage slot of each subsequent clue until you finally find the treasure.
 
 Good luck proving your stuff as a true pirate matey! Your success will be duly rewarded!
-
 

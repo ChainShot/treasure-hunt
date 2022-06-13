@@ -20,7 +20,7 @@ async function main() {
   //
   // Once you've done that, run this script with:
   //
-  //   `npx hardhat run scripts/06_DigForTreasure.js`
+  //   `npx hardhat run scripts/06_DigForTreasure.js --network rinkeby`
   //
   // to dig up the treasure and receive your reward!
   //
@@ -30,6 +30,8 @@ async function main() {
   //
 
   // SET THE VARIABLE BELOW TO THE UNPACKED VALUE FROM THE PREVIOUS CLUE
+  // IF NECESSARY CONVERT THE UNPACKED VALUE FROM HEXADECIMAL TO DECIMAL
+  // WHEN SETTING `treasureLocation`
   const treasureLocation = 0;
   await digForTreasure(treasureLocation);
 }
