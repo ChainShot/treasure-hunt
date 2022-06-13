@@ -113,7 +113,7 @@ Here is example JS code using `ethers.js` that calculates the array's data stora
 ```javascript
 const index0StorageSlot = ethers.utils.keccak256(ethers.utils.hexZeroPad('0x1', 32));
 const index1StorageSlot =
-    ethers.BigNumber.from(dataArrayIndex0StorageSlot).add(1).toHexString();
+    ethers.BigNumber.from(index0StorageSlot).add(1).toHexString();
 ```
 
 #### Mappings

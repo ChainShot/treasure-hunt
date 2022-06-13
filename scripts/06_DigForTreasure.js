@@ -20,7 +20,7 @@ async function main() {
   //
   // Once you've done that, run this script with:
   //
-  //   `npx hardhat run scripts/06_DigForTreasure.js`
+  //   `npx hardhat run scripts/06_DigForTreasure.js --network rinkeby`
   //
   // to dig up the treasure and receive your reward!
   //

@@ -13,7 +13,7 @@ async function main() {
   //
   // Once you've done that, run this script with:
   //
-  //   `npx hardhat run scripts/01_StartHere.js`
+  //   `npx hardhat run scripts/01_StartHere.js --network rinkeby`
   //
   // to print out the clue.
   //
